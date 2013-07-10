@@ -1,0 +1,9 @@
+{
+  "name": "jenkins",
+  "description": "Jenkins Build Server",
+  "run_list": [
+    "recipe[kitchen-jenkins]"
+  ]
+  "json_class": "Chef::Role",
+  "chef_type": "role"
+}
