@@ -30,6 +30,6 @@ Vagrant.configure("2") do |config|
     chef.validation_key_path = ".chef/nhbuckscodevops1-validator.pem"
     chef.validation_client_name = "nhbuckscodevops1-validator"
     chef.node_name = "vagrant"
-    chef.add_role "webserver"
+    # chef.add_role "webserver"
   end
 end
