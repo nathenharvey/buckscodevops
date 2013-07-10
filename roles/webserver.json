@@ -1,5 +1,5 @@
 {
   "name": "webserver",
   "description": "Web Server",
-  "run_list" : ["recipe[apache]"]
+  "run_list" : ["recipe[minitest-handler]","recipe[nagios::client]","recipe[apache]"]
 }
